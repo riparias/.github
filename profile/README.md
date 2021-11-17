@@ -1,1 +1,1 @@
-Software developed for the [LIFE RIPARIAS](riparias.be) project.
+Software developed for the [LIFE RIPARIAS](https://www.riparias.be/) project.
