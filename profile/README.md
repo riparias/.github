@@ -14,10 +14,9 @@ We can clearly separate the dataflow shown above into a _left part_ and a _right
 
 Publishing observations data to GBIF means standardizing them following the international [Darwin Core standard](https://dwc.tdwg.org/), intended to facilitate the sharing of information about biological diversity. The data mapping can be performed in different ways depending on the data provider: some of them could opt for mapping their own data and hosting them in the same database hosting the raw data. They could also opt for installing the Integrated Publishing Toolkit (IPT) and so being completely independent by the EVINBO team [oscibio](https://oscibio.inbo.be/), responsible for this action. Others could opt for sharing their own raw data with oscibio for assistance during the mapping and using the INBO's IPT for publishing. However, data providers are invited to become official GBIF data publishers, even if their data are hosted on INBO's IPT.
 
-### Action A.1.2 RIPARIAS aggregated database and early warning system
+### RIPARIAS aggregated database and early warning system (Action A.1.2)
 
-We automatically harvest observations of alien species from GBIF and import them in an aggregated RIPARIAS database. Above it, an early warning system is built.
+We automatically harvest observations of alien species from GBIF and import them in an aggregated RIPARIAS database at each night. Above the database, an early warning system is built, manageable via a website: https://dev-alert.riparias.be/ (development version). Alerts can be set up by the user after the log-in by a combination of taxonomic and/or geographic filters. The creation of an alert results in periodic email notifications at the desired frequency. We provide an [early alert system mock-up](https://docs.google.com/presentation/d/1axpzA7atQgIpoqcgrxY1tShL77pPQ5ZCFnLYft4Lmo8/edit?usp=sharing) to show the goal we would like to reach at the end of the development process.
 
-
-
-
+Software development repository: https://github.com/riparias/early-warning-webapp/
+Early alert system website (dev version): https://dev-alert.riparias.be/
