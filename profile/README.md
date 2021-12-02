@@ -18,5 +18,7 @@ Publishing observations data to GBIF means standardizing them following the inte
 
 We automatically harvest observations of alien species from GBIF and import them in an aggregated RIPARIAS database at each night. Above the database, an early warning system is built, manageable via a website: https://dev-alert.riparias.be/ (development version). Alerts can be set up by the user after the log-in by a combination of taxonomic and/or geographic filters. An alert results in configurable periodic email notifications. We provide an [early alert system mock-up](https://docs.google.com/presentation/d/1axpzA7atQgIpoqcgrxY1tShL77pPQ5ZCFnLYft4Lmo8/edit?usp=sharing) to show the goal we would like to reach at the end of the development process.
 
-Software development repository: https://github.com/riparias/early-warning-webapp/
-Early alert system website (dev version): https://dev-alert.riparias.be/
+Useful links:
+- Software development repository: https://github.com/riparias/early-warning-webapp/
+- Software development documentation: https://github.com/riparias/early-warning-webapp/blob/main/CONTRIBUTING.md
+- Early alert system website (dev version): https://dev-alert.riparias.be/
