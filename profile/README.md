@@ -21,10 +21,10 @@ The data mapping can be performed in different ways depending on the data provid
 
 ### RIPARIAS aggregated database and early warning system (Action A.1.2)
 
-Observations of a list of IAS is harvested from GBIF and imported in an aggregated LIFE RIPARIAS database every night. Above the database, an early warning system is built, manageable via a website: https://dev-alert.riparias.be/ (development version). Alerts can be set up by the user after the log-in with  a combination of taxonomic and/or geographic filters. An alert results in configurable periodic email notifications. An [early alert system mock-up](https://docs.google.com/presentation/d/1axpzA7atQgIpoqcgrxY1tShL77pPQ5ZCFnLYft4Lmo8/edit?usp=sharing) was developed to show what is intended to be  reached at the end of the development process (i.e. after version 2 is completed).
+Observations of a list of IAS is harvested from GBIF and imported in an aggregated LIFE RIPARIAS database every night. Above the database, an early warning system is built, manageable via a website: https://alert.riparias.be/. Alerts can be set up by the user after the log-in with  a combination of taxonomic and/or geographic filters. An alert results in configurable periodic email notifications. An [early alert system mock-up](https://docs.google.com/presentation/d/1axpzA7atQgIpoqcgrxY1tShL77pPQ5ZCFnLYft4Lmo8/edit?usp=sharing) was developed to show what is intended to be  reached at the end of the development process (i.e. after version 2 is completed).
 
 Useful links:
 - Software development repository: https://github.com/riparias/early-warning-webapp/
 - Software development documentation: https://github.com/riparias/early-warning-webapp/blob/main/CONTRIBUTING.md
-- Early alert system website (dev version): https://dev-alert.riparias.be/
+- Early alert system website: https://alert.riparias.be/
 
